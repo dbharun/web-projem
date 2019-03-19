@@ -9,7 +9,7 @@
  #header {
      width: 100%;
      background-color: black;
-     padding: 25px;
+     padding: 10px;
      color: white;
 }
  #header:after {
@@ -21,8 +21,8 @@
 }
  #header section {
      float: left;
-     width: 30%;
-     font-size: 18px;
+     width: 25%;
+     font-size: 20px;
      font-weight: bold;
 }
  #header nav {
@@ -60,7 +60,7 @@
  #display-ads{
      padding: 300x;
      margin: 300px;
-     background: white;
+     background: black;
 }
  #main-article {
      float: left;
@@ -70,7 +70,7 @@
 }
  #sidebar {
      float: right;
-     width: 38%;
+     width: 20%;
      min-height: 450px;
      background:white;
 }
@@ -79,4 +79,16 @@
      background-color: black;
      padding: 10px;
      color: #3c2723;
+}
+
+.logo {
+     float: left;
+     width: 15px;
+     height: 30px;
+     margin: 0px 0px;
+}
+.video{
+     margin:5px 0px
+
+
 }
