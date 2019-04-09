@@ -9,21 +9,23 @@
  #header {
      width: 100%;
      background-color: black;
-     padding: 10px;
+     padding: 30px;
      color: white;
+     
 }
  #header:after {
      content: ".";
-     display: block;
-     height: 0;
+     display: ruby-base;
+     height: 30px;
      clear: both;
      visibility: hidden;
 }
  #header section {
      float: left;
-     width: 25%;
+     width: 20%;
      font-size: 20px;
      font-weight: bold;
+
 }
  #header nav {
      width: 70%;
@@ -40,11 +42,12 @@
      margin-left: 10px;
      background-color: black;
      text-align: center;
-     color: black;
+     color: #d0a0a3;
+
 }
  #header nav ul li a, a {
      text-decoration: none;
-     color: white;
+     color:white;
 }
  #main-body-container {
      padding: 10px;
@@ -69,7 +72,7 @@
      background: white;
 }
  #sidebar {
-     float: right;
+     float: center;
      width: 20%;
      min-height: 450px;
      background:white;
@@ -89,6 +92,21 @@
 }
 .video{
      margin:5px 0px
+
+
+}
+
+#logo img {
+ 
+width:50px;
+ margin: 0px auto;
+ float: left;
+ 
+}
+
+#header video{
+width:320px;
+height:240px;
 
 
 }
