@@ -25,6 +25,7 @@
      width: 20%;
      font-size: 20px;
      font-weight: bold;
+   top: 20px;
 
 }
  #header nav {
@@ -66,9 +67,9 @@
      background: black;
 }
  #main-article {
-     float: left;
-     width: 60%;
-     min-height: 450px;
+     float: center;
+     width: 90%;
+     min-height: 300px;
      background: white;
 }
  #sidebar {
@@ -80,8 +81,9 @@
  #footer {
      width: 100%;
      background-color: black;
-     padding: 10px;
+     padding: 5px;
      color: #3c2723;
+     float: center;
 }
 
 .logo {
@@ -90,23 +92,26 @@
      height: 30px;
      margin: 0px 0px;
 }
-.video{
-     margin:5px 0px
 
 
-}
 
-#logo img {
+#header img {
  
-width:50px;
- margin: 0px auto;
+width:60px;
+ margin: -10px ;
+ position: relative;
  float: left;
- 
-}
+
+ }
 
 #header video{
-width:320px;
-height:240px;
 
+     position: relative;
+     float: center;
+     margin-top: 70px;
+     height: 400px
+     top:100px;
+     width: 1000px;
+ 
 
 }
