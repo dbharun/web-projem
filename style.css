@@ -121,5 +121,22 @@ width:60px;
      top:100px;
      width: 1000px;
  
+}
+}
+ #gor1 {
+ float: right;
+width: 6666px;
+height: 60px;
+ margin: 0px 0px;
+   padding: 100px;
+
+}
+
+ #gor2 {
+ float: left;
+width: 6666px;
+height: 60px;
+ margin: 0px 0px;
+   padding: 100px;
 
 }
